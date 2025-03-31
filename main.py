@@ -507,7 +507,7 @@ class DiscordEmbed2:
         self.about_dialog.focus_force()
 
         about_text = """
-        DiscordEmbed2 - Version 2.0.2
+        DiscordEmbed2 - Version 2.0.1
     
         Ein Produkt von Nico Inc.
     
@@ -628,7 +628,7 @@ class DiscordEmbed2:
             return
 
         try:
-            signature = "\n\n*by Nico Inc. Vers.: 2.0.2*"
+            signature = "\n\n*by Nico Inc. Vers.: 2.0.1*"
             full_message = (
                 f"**{title}**\n{message}{signature}"
                 if title
